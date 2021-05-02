@@ -21,5 +21,5 @@ $query = "INSERT into user (nick, pass, email) VALUES ('$usuario', '$senha', '$e
 $result = mysqli_query($conexao, $query); //Inserir dado de Registro
 if($result == ''){
     echo "<script language='javascript' type='text/javascript'>alert('O usuario não foi cadastrado!')</script>";
-}
+} 
 ?>

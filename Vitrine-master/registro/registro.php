@@ -4,7 +4,7 @@ if(empty($_POST['nick']) || empty($_POST['senha'])){ //checar se tem campos em b
     $_SESSION['campos_branco'] = true;
     header('Location: index.php'); // se for para onde vai ser redirecionado
     exit();
-}
+}  
 
 if(empty($_POST['senha']) == empty($_POST['senha2'])){ //checar se tem campos em branco
     $_SESSION['senhas'] = true;
